@@ -1,0 +1,4 @@
+{
+  "directory": "public/lib",
+  "//": "Install all Bower dependencies in that directory"
+}

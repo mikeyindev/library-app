@@ -1,0 +1,16 @@
+html
+    head
+        //- bower:css
+        //- endbower
+        //-bower:js
+        //- endbower
+        //- inject:css
+        //- endinject
+        //- inject:js
+        //- endinject
+        title MyApp
+    body(class='myClass')
+        h1(id='myId') My App
+        ul
+            each val in ['1','2','3']
+                li=val
