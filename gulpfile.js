@@ -42,7 +42,7 @@ gulp.task('inject', function () {
 });
 
 // Run style & inject before running nodemon
-gulp.task('serve', ['style', 'inject'], function () {
+gulp.task('serve', ['inject'], function () {
     var options = {
         script: 'app.js',
         delayTime: 1, // Wait 1 sec
